@@ -34,8 +34,5 @@ class Solution:
                         if items[1] == int(digit) * multiplier:
                             res.append(items[0])
                             multiplier *= 10
-            print("digit :", digit)
-            print("multiplier :", multiplier)
-            print("res list : ", res)
 
         return "".join(res[::-1])
